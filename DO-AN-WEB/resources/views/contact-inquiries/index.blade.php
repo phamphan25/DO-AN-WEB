@@ -29,7 +29,7 @@
                 <tr>
                     <td>{{ $inquiry->name }}</td>
                     <td>{{ $inquiry->email }}</td>
-                    <td>{{ $inquiry->SDT }}</td>
+                    <td>{{ $inquiry->sdt }}</td>
                     <td>{{ $inquiry->message }}</td>
                     <td>{{ $inquiry->created_at }}</td>
                     <td>

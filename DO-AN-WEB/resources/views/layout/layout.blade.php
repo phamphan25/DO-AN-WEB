@@ -128,14 +128,14 @@
                             </li>
                             <li class="slide">
                                 <a class="side-menu__item has-link" data-bs-toggle="slide"
-                                    href="{{ url('/dashboard')}}">
+                                    href="{{ route('dashboard.index')}}">
                                     <i class="fe fe-home" data-bs-toggle="tooltip" title="fe fe-home"></i>
                                     <span class="side-menu__label"> </span>
                                     <span class="side-menu__label">Dashboard</span>
                                 </a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ url('/sanpham')}}">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ route('product.index')}}">
                                     <i class="fe fe-package" data-bs-toggle="tooltip" title="fe fe-package"></i>
                                     <span class="side-menu__label"> </span>
                                     <span class="side-menu__label">Sản phẩm</span><i class=""></i>
@@ -149,7 +149,7 @@
                                 </a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ url('/donhang') }}">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ route('order.index') }}">
                                     <i class="fe fe-file-text" data-bs-toggle="tooltip" title="fe fe-file-text"></i>
                                     <span class="side-menu__label"> </span>
                                     <span class="side-menu__label">Đơn hàng</span><i class=""></i></a>
