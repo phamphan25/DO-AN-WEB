@@ -30,6 +30,7 @@ class CommentController extends Controller
     }
     public function destroy(Comment $comment)
     {
+
         // Delete the comment
         $comment->delete();
 

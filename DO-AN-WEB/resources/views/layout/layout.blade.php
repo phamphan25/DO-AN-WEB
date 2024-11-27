@@ -149,7 +149,7 @@
                                 </a>
                             </li>
                             <li class="slide">
-                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ url('/donhang') }}">
+                                <a class="side-menu__item" data-bs-toggle="slide" href="{{ route('order.index') }}">
                                     <i class="fe fe-file-text" data-bs-toggle="tooltip" title="fe fe-file-text"></i>
                                     <span class="side-menu__label"> </span>
                                     <span class="side-menu__label">Đơn hàng</span><i class=""></i></a>
@@ -272,6 +272,28 @@
     <!-- REPLY JS-->
     <script src="../assets/js/reply.js"></script>
 
+    <!-- INTERNAL SELECT2 JS -->
+		<script src="../assets/plugins/select2/select2.full.min.js"></script>
+
+<!-- DATA TABLE JS-->
+<script src="../assets/plugins/datatable/js/jquery.dataTables.min.js"></script>
+<script src="../assets/plugins/datatable/js/dataTables.bootstrap5.js"></script>
+<script src="../assets/plugins/datatable/js/dataTables.buttons.min.js"></script>
+<script src="../assets/plugins/datatable/js/buttons.bootstrap5.min.js"></script>
+<script src="../assets/plugins/datatable/js/jszip.min.js"></script>
+<script src="../assets/plugins/datatable/pdfmake/pdfmake.min.js"></script>
+<script src="../assets/plugins/datatable/pdfmake/vfs_fonts.js"></script>
+<script src="../assets/plugins/datatable/js/buttons.html5.min.js"></script>
+<script src="../assets/plugins/datatable/js/buttons.print.min.js"></script>
+<script src="../assets/plugins/datatable/js/buttons.colVis.min.js"></script>
+<script src="../assets/plugins/datatable/dataTables.responsive.min.js"></script>
+<script src="../assets/plugins/datatable/responsive.bootstrap5.min.js"></script>
+
+<!-- TABLE EDITS JS-->
+<script src="../assets/plugins/jQuery-table-edits/table-edits.min.js"></script>
+<script src="../assets/plugins/jQuery-table-edits/table-edits.js"></script>
+<!-- INTERNAL DATATABLES JS -->
+<script src="../assets/js/table-editable.js"></script>
     <!-- PERFECT SCROLLBAR JS-->
     <script src="../assets/plugins/p-scroll/perfect-scrollbar.js"></script>
     <script src="../assets/plugins/p-scroll/pscroll.js"></script>
