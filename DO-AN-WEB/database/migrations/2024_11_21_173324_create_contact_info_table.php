@@ -8,22 +8,22 @@ class CreateContactInfoTable extends Migration
 {
     public function up()
     {
-        Schema::create('contact_info', function (Blueprint $table) {
-            $table->id(); // Auto-incrementing ID field
-            $table->string('shop_name'); // Shop name
-            $table->string('address'); // Shop address
-            $table->string('phone'); // Phone number
-            $table->string('email'); // Email address
-            $table->string('fax')->nullable(); // Fax (nullable field)
-            $table->string('business_hours'); // Business hours
-            $table->string('social_links')->nullable(); // Social media links (nullable)
-            $table->text('map')->nullable(); // Google Maps embed code (nullable)
-            $table->timestamps(); // Created at and Updated at timestamps
+        Schema::create('lien_he', function (Blueprint $table) {
+            $table->id(); // Trường ID tự tăng
+            $table->string('ten_cua_hang'); // Tên cửa hàng
+            $table->string('dia_chi'); // Địa chỉ cửa hàng
+            $table->string('so_dien_thoai'); // Số điện thoại
+            $table->string('email'); // Địa chỉ email
+            $table->string('fax')->nullable(); // Fax (có thể để trống)
+            $table->string('gio_lam_viec'); // Giờ làm việc
+            $table->string('link_mang_xa_hoi')->nullable(); // Liên kết mạng xã hội (có thể để trống)
+            $table->text('ban_do')->nullable(); // Mã nhúng Google Maps (có thể để trống)
+            $table->timestamps(); // Thời gian tạo và cập nhật
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('contact_info');
+        Schema::dropIfExists('lien_he');
     }
 }
